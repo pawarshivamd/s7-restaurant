@@ -27,6 +27,3 @@ dist-ssr
 
 BOOKTABLE_GUIDE.md
 README.md
-db.json.jsx
-reservationStorage.js
-pdfGenerator.js
