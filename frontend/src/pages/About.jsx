@@ -1,3 +1,4 @@
+import { useRef, lazy } from 'react';
 import { Box, Container, Grid, Typography, useMediaQuery } from '@mui/material';
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Timeline from '@mui/lab/Timeline';
@@ -8,7 +9,6 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import theme from '../theme/theme';
-import { useRef } from 'react';
 import { AppData } from '../data/db.json';
 import { images } from '../data/imageMap';
 const HeroHead = lazy(() => import('../components/HeroHead'));
